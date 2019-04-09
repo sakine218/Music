@@ -14,6 +14,12 @@
 		115A5A04225088040056ABE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115A5A02225088040056ABE0 /* LaunchScreen.storyboard */; };
 		115A5A0F225088040056ABE0 /* MusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115A5A0E225088040056ABE0 /* MusicTests.swift */; };
 		115A5A1A225088040056ABE0 /* MusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115A5A19225088040056ABE0 /* MusicUITests.swift */; };
+		115A5A2E225088190056ABE0 /* aki.png in Resources */ = {isa = PBXBuildFile; fileRef = 115A5A28225088190056ABE0 /* aki.png */; };
+		115A5A2F225088190056ABE0 /* natsu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 115A5A29225088190056ABE0 /* natsu.mp3 */; };
+		115A5A30225088190056ABE0 /* ame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 115A5A2A225088190056ABE0 /* ame.mp3 */; };
+		115A5A31225088190056ABE0 /* natsu.png in Resources */ = {isa = PBXBuildFile; fileRef = 115A5A2B225088190056ABE0 /* natsu.png */; };
+		115A5A32225088190056ABE0 /* ame.png in Resources */ = {isa = PBXBuildFile; fileRef = 115A5A2C225088190056ABE0 /* ame.png */; };
+		115A5A33225088190056ABE0 /* aki.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 115A5A2D225088190056ABE0 /* aki.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		115A5A15225088040056ABE0 /* MusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		115A5A19225088040056ABE0 /* MusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicUITests.swift; sourceTree = "<group>"; };
 		115A5A1B225088040056ABE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115A5A28225088190056ABE0 /* aki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aki.png; sourceTree = "<group>"; };
+		115A5A29225088190056ABE0 /* natsu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = natsu.mp3; sourceTree = "<group>"; };
+		115A5A2A225088190056ABE0 /* ame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ame.mp3; sourceTree = "<group>"; };
+		115A5A2B225088190056ABE0 /* natsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = natsu.png; sourceTree = "<group>"; };
+		115A5A2C225088190056ABE0 /* ame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ame.png; sourceTree = "<group>"; };
+		115A5A2D225088190056ABE0 /* aki.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aki.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,7 @@
 		115A59F8225088030056ABE0 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				115A5A27225088190056ABE0 /* Music素材 */,
 				115A59F9225088030056ABE0 /* AppDelegate.swift */,
 				115A59FB225088030056ABE0 /* ViewController.swift */,
 				115A59FD225088030056ABE0 /* Main.storyboard */,
@@ -123,6 +136,19 @@
 				115A5A1B225088040056ABE0 /* Info.plist */,
 			);
 			path = MusicUITests;
+			sourceTree = "<group>";
+		};
+		115A5A27225088190056ABE0 /* Music素材 */ = {
+			isa = PBXGroup;
+			children = (
+				115A5A28225088190056ABE0 /* aki.png */,
+				115A5A29225088190056ABE0 /* natsu.mp3 */,
+				115A5A2A225088190056ABE0 /* ame.mp3 */,
+				115A5A2B225088190056ABE0 /* natsu.png */,
+				115A5A2C225088190056ABE0 /* ame.png */,
+				115A5A2D225088190056ABE0 /* aki.mp3 */,
+			);
+			path = "Music素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +255,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				115A5A30225088190056ABE0 /* ame.mp3 in Resources */,
 				115A5A04225088040056ABE0 /* LaunchScreen.storyboard in Resources */,
+				115A5A2F225088190056ABE0 /* natsu.mp3 in Resources */,
+				115A5A33225088190056ABE0 /* aki.mp3 in Resources */,
 				115A5A01225088040056ABE0 /* Assets.xcassets in Resources */,
 				115A59FF225088030056ABE0 /* Main.storyboard in Resources */,
+				115A5A32225088190056ABE0 /* ame.png in Resources */,
+				115A5A31225088190056ABE0 /* natsu.png in Resources */,
+				115A5A2E225088190056ABE0 /* aki.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2T75EV2YE;
+				DEVELOPMENT_TEAM = 6753PY9LZ8;
 				INFOPLIST_FILE = Music/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,7 +483,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2T75EV2YE;
+				DEVELOPMENT_TEAM = 6753PY9LZ8;
 				INFOPLIST_FILE = Music/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
